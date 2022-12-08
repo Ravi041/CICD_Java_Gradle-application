@@ -1,5 +1,6 @@
 pipeline{
     agent any
+    tools "JDK11"
     stages{
         stage("Sonar Quality Check"){
             }
